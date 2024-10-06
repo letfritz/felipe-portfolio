@@ -13,7 +13,7 @@ export const LINKS = [
 ];
 
 export const HERO_CONTENT = {
-  greeting: "Oi, gente! 🖐️",
+  greeting: "Oi, gente! 👋🏽",
   introduction:
     "Sou Felipe Fritz, tradutor audiovisual, escritor e revisor textual.",
   description:
