@@ -334,10 +334,10 @@ export const ABOUT_CONTENT = {
 export const EXPERIENCES = [
   {
     yearRange: "Set. 2022 — Atual",
-    title: "Tradutor Júnior",
+    title: "Tradutor",
     location: "UNIVERSAL CINERGÍA DUBBING",
     description: [
-      "Tradutor Júnior em estúdio de dublagem;",
+      "Tradutor em estúdio de dublagem;",
       "Tradução e adaptação de roteiros de filmes, séries e novelas do inglês para o português;",
       "Contato direto com colaboradores de produções audiovisuais.",
     ],
