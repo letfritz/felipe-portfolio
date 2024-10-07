@@ -17,6 +17,19 @@ export const HERO_CONTENT = {
 
 export const PROJECTS = [
   {
+    id:25,
+    name: "A VIDA FORA DO REALITY",
+    description: "Título original: La Vida Después Del Reality",
+    tipo: "Tipo: Série",
+    disp: "Disponível em: Prime Video",
+    image: "/assets/VIDAFORA.jpeg",
+    ano: "2023",
+    season: "Temporada: 1",
+    link: "https://www.imdb.com/title/tt23786232/?ref_=nv_sr_srsg_6_tt_8_nm_0_in_0_q_LA%2520VIDA%2520DESPUES",
+    tag: "Série",
+    botao: "IMBD"
+  },
+  {
     id:24,
     name: "Eight for Silver",
     description: "Título original: Eight for Silver",
