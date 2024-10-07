@@ -19,7 +19,7 @@ export const HERO_CONTENT = {
   description:
     "Acredito que todo mundo tem uma história para contar. Aqui, conto toda a minha jornada profissional e produções que participei.",
   resumeLinkText: "Download Currículo",
-  resumeLink: "/resume.pdf",
+  resumeLink: "/CV_FelipeFritzHenrique.pdf",
 };
 
 export const PROJECTS = [
