@@ -1,10 +1,3 @@
-import person1 from "../assets/person1.webp";
-import person2 from "../assets/person2.webp";
-import person3 from "../assets/person3.webp";
-import person4 from "../assets/person4.webp";
-import person5 from "../assets/person5.webp";
-import person6 from "../assets/person6.webp";
-
 export const LINKS = [
   { href: "#producoes", label: "Produções" },
   { href: "#sobre", label: "Sobre" },
