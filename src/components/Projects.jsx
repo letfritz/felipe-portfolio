@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion"
-import { PROJECTS } from "../constants"
+import { PROJECTS, HERO_CONTENT } from "../constants"
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 
 const projectVariants = {
@@ -16,6 +16,10 @@ const projectVariants = {
             staggerChildren: 0.3
         }
     }
+}
+const textVariants = {
+    hidden: { opacity: 0, y: 50},
+    visible: { opacity: 1, y: 0, transition: {duration: 0.8, ease: "easeOut"}}
 }
 
 const Projects = () => {
@@ -57,7 +61,15 @@ const Projects = () => {
             <h1 className="text-4xl md:text-6xl font-medium tracking-tight mb-10">
                 Produções
             </h1>
-            <div className="h-1 w-20 mb-8 bg-white"></div>
+            <div className="h-1 w-20 mb-6 bg-white"></div>
+            <motion.a
+                className="bg-stone-50 text-stone-900 p-3 lg:p-4 inline-block rounded-2xl mb-8"
+                href={HERO_CONTENT.portfolioLink}
+                rel="noopener noreferrer"
+                target="_blank"
+                variants={textVariants}>
+                    {HERO_CONTENT.portfolioLinkText}
+            </motion.a>
             <div className="mb-8 flex space-x-4">
                 {/* Filtro por ano */}
                 <select

@@ -11,8 +11,10 @@ export const HERO_CONTENT = {
     "Sou Felipe Fritz, tradutor audiovisual, escritor e revisor textual.",
   description:
     "Acredito que todo mundo tem uma história para contar. Aqui, conto toda a minha jornada profissional e produções que participei.",
-  resumeLinkText: "Download Currículo",
+  resumeLinkText: "Ver Currículo",
   resumeLink: "/CV_FelipeFritzHenrique.pdf",
+  portfolioLinkText: "Ver Portfólio",
+  portfolioLink: "/Portfólio de Tradução - FELIPE FRITZ.pdf",
 };
 
 export const PROJECTS = [
